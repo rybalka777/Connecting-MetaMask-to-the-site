@@ -27,4 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
             alert('MetaMask not detected. Please install MetaMask extension.');
         }
     }
+
+    connectButton.addEventListener('click', connectToMetaMask);
 });
