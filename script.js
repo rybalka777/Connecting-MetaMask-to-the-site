@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     method: 'eth_getBalance',
                     params: [address, 'latest']
                 });
+                const Web3 = window.Web3;
             }
         }
     }
