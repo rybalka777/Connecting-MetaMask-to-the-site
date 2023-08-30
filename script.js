@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 let balance = `${balanceEther} ETH`;
                 alert(balance);
+                document.getElementById("balik").innerHTML = balance;
             }
         }
     }
