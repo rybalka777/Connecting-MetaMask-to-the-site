@@ -16,6 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 const Web3 = window.Web3;
                 const web3 = new Web3();
                 const balanceEther = web3.utils.fromWei(balanceWei, 'ether');
+
+                let balance = `${balanceEther} ETH`;
             }
         }
     }
