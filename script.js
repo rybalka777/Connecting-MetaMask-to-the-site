@@ -8,6 +8,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 const accounts = await ethereum.request({ method: 'eth_accounts' });
                 const address = accounts[0];
+
+                const balanceWei = await ethereum.request({
+                    method: 'eth_getBalance',
+                    params: [address, 'latest']
+                });
             }
         }
     }
