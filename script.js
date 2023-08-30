@@ -23,6 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
             } catch (error) {
                 console.error(error);
             }
+        } else {
+            alert('MetaMask not detected. Please install MetaMask extension.');
         }
     }
 });
