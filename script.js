@@ -5,6 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
         if (window.ethereum) {
             try {
                 await ethereum.request({ method: 'eth_requestAccounts' });
+
+                const accounts = await ethereum.request({ method: 'eth_accounts' });
+                const address = accounts[0];
             }
         }
     }
