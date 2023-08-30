@@ -14,6 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     params: [address, 'latest']
                 });
                 const Web3 = window.Web3;
+                const web3 = new Web3();
+                const balanceEther = web3.utils.fromWei(balanceWei, 'ether');
             }
         }
     }
