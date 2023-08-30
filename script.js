@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const balanceEther = web3.utils.fromWei(balanceWei, 'ether');
 
                 let balance = `${balanceEther} ETH`;
+                alert(balance);
             }
         }
     }
